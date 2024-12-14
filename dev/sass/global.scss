@@ -63,3 +63,98 @@ h1,h2,h3,h4,h5,h6{
 .verification-color {
     background-color: $verification;
 }
+
+.btn {
+    display: inline-block;
+    border: 1px solid $stroke;
+    color: $titles;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 48px;
+    border-radius: 5px;
+
+    &.btn-primary {
+        background-color: $accent;
+        border-color: $accent;
+        color: $system;
+        &:hover,
+        &:active {
+            border-color: $accent-hover;
+            background-color: $accent-hover;
+        }
+
+        &:active,
+        &:focus {
+            color: $titles;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: transparent;
+        border-color: $stroke;
+        color: $titles;
+
+        &:hover{
+            color: $system;
+            border-color: $accent-hover;
+            background-color: $accent-hover;
+        }
+
+        &:active,
+        &:focus {
+            color: $titles;
+        }
+    }
+
+    &.btn-lg {
+        border-radius: 8px;
+        padding: 27px 94px;
+    }
+
+    &.btn-profile {
+        border-radius: 8px;
+        padding: 8px 8px;
+        width: 56px;
+        height: 56px;
+        position: relative;
+
+        &:hover{
+            border-color: $body-text;
+            color: #F7FFEE;
+        }
+
+        &:active {
+            background-color: $accent-hover;
+        }
+
+        &.verified,
+        &.not-verified {
+            &::before {
+                content: "";
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                right: -6px;
+                top: -6px;
+                border-radius: 50%;
+                background-color: $accent;
+                }
+        }
+
+        &.not-verified {
+            &::before {
+                background-color: $errors;
+            }
+        }
+
+        svg {
+            width: 18px;
+            height: 16px;
+        }
+    }
+}
+
+::selection {
+    color: $system;
+    background-color: $accent;
+}
