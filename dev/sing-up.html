@@ -1,0 +1,50 @@
+@@include('templates/head.html')
+@@include('templates/header.html')
+<main class="wrapper page-login">
+    <div class="column-logo">
+        <img src="assets/img/onebit-logo.svg" alt="logo">
+    </div>
+    <form class="template-form">
+        <button class="m-1 btn btn-profile">
+            <svg>
+                <use href="#arrow-back"></use>
+            </svg>
+        </button>
+        <h3 class="template-form__title">створити акаунт</h3>
+        <h3 class="template-form__subtitle">Для успішного проходження реєстрації заповніть поля, вказані нижче</h3>
+        <div class="input-row">
+            <div class="input-box">
+                <label for="name">ім’я</label>
+                <input id="name" type="text">
+            </div>
+            <div class="input-box">
+                <label for="lastname">прізвище</label>
+                <input id="lastname" type="text">
+            </div>
+        </div>
+        <div class="input-box">
+            <label for="tel">номер телефону</label>
+            <input id="tel" type="tel">
+        </div>
+        <div class="input-box">
+            <label for="email">email</label>
+            <input id="email" type="email">
+        </div>
+        <div class="input-box">
+            <label for="telegram">telegram</label>
+            <input id="telegram" type="text">
+        </div>
+        <div class="input-box">
+            <label for="password">пароль</label>
+            <input id="password" type="password">
+        </div>
+
+        <div class="control-box">
+            <input type="checkbox" id="consent">
+            <label for="consent">Я погоджуюся з <a href="#">умовами користування</a> та <a href="#">політикою конфіденційності</a></label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-large">зареєструватися</button>
+        <div>вже маєте акаунт Onebit? <a href="sing-in.html">увійти</a></div>
+    </form>
+</main>
+@@include('templates/footer.html')

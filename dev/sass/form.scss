@@ -1,0 +1,48 @@
+label {
+    font-size: 20px;
+}
+
+input {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        display: none;
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    &[type='number']{
+        -moz-appearance: textfield;
+    }
+}
+
+.column-logo {
+    width: 300px;
+    height: 100vh;
+    background-color: $accent;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 40px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.template-form {
+    padding: 0 12px;
+    max-width: 729px;
+}
+
+.page-login {
+    .template-form{
+        margin: 100px auto;
+    }
+}
+
+.input-row {
+    display: flex;
+    gap: 30px;
+}
