@@ -156,6 +156,7 @@ a {
         width: 56px;
         height: 56px;
         position: relative;
+        max-width: 56px;
 
         &:hover{
             border-color: $body-text;

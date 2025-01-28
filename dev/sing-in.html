@@ -11,7 +11,7 @@
             </svg>
         </button>
         <h3 class="template-form__title">увійти в акаунт</h3>
-        <h3 class="template-form__subtitle">Для успішного входу в особистий кабінет заповніть поля, які вказані нижче</h3>
+        <h6 class="template-form__subtitle">Для успішного входу в особистий кабінет заповніть поля, які вказані нижче</h6>
         <div class="input-box">
             <label for="email">email</label>
             <input id="email" type="email">
@@ -20,9 +20,13 @@
             <label for="password">пароль</label>
             <input id="password" type="password">
         </div>
-        <button type="submit" class="btn btn-primary btn-large">увійти в акаунт</button>
-        <div>ще не маєте акаунта Onebit? <a href="sing-up.html">створити акаунт</a></div>
-        <a href="forgot-password.html">забув пароль</a>
+        <div class="btn-row">
+            <button type="submit" class="btn btn-primary btn-lg">увійти в акаунт</button>
+        </div>
+        <div class="template-form__questions">
+            <span>ще не маєте акаунта Onebit? <a href="sing-up.html">створити акаунт</a></span>
+            <a href="forgot-password.html">забув пароль</a>
+        </div>
     </form>
 </main>
 @@include('templates/footer.html')
