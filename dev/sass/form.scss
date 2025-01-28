@@ -20,6 +20,7 @@ input {
     font-size: 20px;
     padding: 26.5px 30px;
     transition: 0.3s;
+    width: 100%;
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {
         display: none;
@@ -151,4 +152,22 @@ input {
             }
         }
     }
+}
+
+::-ms-reveal {
+    display: none !important; 
+}
+
+.hideShowPassword-toggle {
+    background: url(./assets/img/icon-eye.svg) center/contain no-repeat transparent;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transform: translate(-30px, 0);
+    font-size: 0;
+    border: none;
+}
+
+.hideShowPassword-toggle-hide {
+    background: url(./assets/img/icon-eye-active.svg) center/contain no-repeat transparent;
 }
