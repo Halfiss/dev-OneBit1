@@ -1,18 +1,24 @@
 ///fonts///
 $font-primary: "Geometria";
+$font-secondary:  "monospace";
+ 
 
 ///colors///
 $background: #080807;
 $system: #10100E;
 $stroke: #4F4F4F;
-$body-text: #8A9385;
+$body-text: #8E938C;
+$light-black:#242424;
 $titles: #F7FFEE;
 
 $accent: #B1FF5C;
 $accent-hover: #9AF03C;
 $accent-secondary: #42882A;
 
-$control-btn-bg: #152108;
+$controll-btn-bg: #152108;
 
 $errors: #FF3D3D;
 $verification: #FFB444;
+
+$section-padding: 250px;
+$section-padding-mb: 100px;
