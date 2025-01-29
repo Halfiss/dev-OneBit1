@@ -1,4 +1,73 @@
 @media screen and (max-width: 1024px) {
+    input {
+        padding: 22.5px 20px;
+    }
+
+    .input-box label {
+        left: 21px;
+        top: 24px;
+    }
+
+    input,
+    label,
+    .control-box label,
+    .template-form__questions {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+
+        &.btn-large {
+            padding: 21px 94px 23px;
+        }
+    }
+
+    .column-logo {
+        display: none;
+    }
+
+    .page-login .template-form {
+        padding: 0 20px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .template-form {
+        .btn-profile {
+            left: 20px;
+            top: 20px;
+        }
+
+        &__title {
+            font-size: 32px;
+            min-height: 68px;
+            padding: 11px 0 0 72px;
+            display: flex;
+            align-items: center;
+        }
+    
+        &__subtitle {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        
+        .btn-row {
+            margin: 40px 0 27px;
+        }
+    }
+
+    .input-box {
+        margin-bottom: 20px;
+    }
+
+    .control-box {
+        margin: 44px 0;
+    }
+
+    .input-row {
+        display: block;
+    }
 }
 
 

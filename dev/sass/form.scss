@@ -1,5 +1,5 @@
 .column-logo {
-    width: 300px;
+    width: 333px;
     height: 100vh;
     background-color: $accent;
     position: fixed;
@@ -46,17 +46,17 @@ input {
 }
 
 .template-form {
-    padding: 0 12px;
-    max-width: 729px;
+    padding: 0 86px 0 12px;
+    max-width: 803px;
     position: relative;
     .btn-profile {
         position: absolute;
-        left: -79px;
-        top: 0;
+        left: -111px;
+        top: 3px;
     }
 
     &__title {
-            margin-bottom: 20px;
+            margin-bottom: 23px;
     }
 
     &__subtitle {
@@ -79,13 +79,12 @@ input {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        font-size: 20px;
     }
 }
 
-.page-login {
-    .template-form{
-        margin: 100px auto;
-    }
+.page-login .template-form {
+    margin: 97px auto 100px 596px;
 }
 
 .input-row {
@@ -108,7 +107,7 @@ input {
 }
 
 .control-box {
-    margin: 40px 0;
+    margin: 42px 0;
 
     label {
         position: relative;
@@ -125,7 +124,8 @@ input {
                 height: 26px;
                 position: absolute;
                 left: 0;
-                top: 0;
+                top: 50%;
+                transform: translate(0, -50%);
                 background-color: $system;
                 border: 1px solid $stroke;
                 border-radius: 4px;

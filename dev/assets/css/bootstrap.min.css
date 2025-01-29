@@ -554,7 +554,7 @@ progress {
 		max-width: 720px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.container,
 	.container-lg,
 	.container-md,
@@ -695,7 +695,7 @@ progress {
 		width: 16.6666666667%;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.col-lg {
 		flex: 1 0 0%;
 	}
@@ -1203,7 +1203,7 @@ progress {
 		--bs-gutter-y: 3rem;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.col-lg-auto {
 		flex: 0 0 auto;
 		width: auto;
@@ -1778,7 +1778,7 @@ progress {
 		-webkit-overflow-scrolling: touch;
 	}
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1024.98px) {
 	.table-responsive-lg {
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
@@ -3321,7 +3321,7 @@ fieldset:disabled .btn {
 		left: auto;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.dropdown-menu-lg-start {
 		--bs-position: start;
 	}
@@ -3848,7 +3848,7 @@ fieldset:disabled .btn {
 		display: none;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.navbar-expand-lg {
 		flex-wrap: nowrap;
 		justify-content: flex-start;
@@ -4675,7 +4675,7 @@ fieldset:disabled .btn {
 		border-left-width: 1px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.list-group-horizontal-lg {
 		flex-direction: row;
 	}
@@ -5075,7 +5075,7 @@ fieldset:disabled .btn {
 		max-width: 300px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.modal-lg,
 	.modal-xl {
 		max-width: 800px;
@@ -5150,7 +5150,7 @@ fieldset:disabled .btn {
 		border-radius: 0;
 	}
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1024.98px) {
 	.modal-fullscreen-lg-down {
 		width: 100vw;
 		max-width: none;
@@ -5904,7 +5904,7 @@ fieldset:disabled .btn {
 		z-index: 1020;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.sticky-lg-top {
 		position: -webkit-sticky;
 		position: sticky;
@@ -7887,7 +7887,7 @@ fieldset:disabled .btn {
 		text-align: center !important;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
 	.float-lg-start {
 		float: left !important;
 	}
