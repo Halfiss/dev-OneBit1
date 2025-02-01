@@ -286,8 +286,8 @@ section {
 
 .scroll-x::-webkit-scrollbar {
     height: 3px;
-    background-color: #242424;
-    border: 0px solid #242424;
+    background-color: $light-black;
+    border: 0px solid $light-black;
     border-radius: 5px;
 }
 
@@ -300,7 +300,7 @@ section {
 // .scroll::-webkit-scrollbar-thumb {
 //     background-color: $accent;
 //     background-clip: padding-box;
-//     border: 0px solid #242424;
+//     border: 0px solid $light-black;
 //     border-radius: 5px;
 
 //     &:hover {
@@ -311,7 +311,7 @@ section {
 
 // .scroll::-webkit-scrollbar-track {
 //     border-radius: 5px;
-//     background-color: #242424;
+//     background-color: $light-black;
 //     cursor: pointer;
 // }
 
@@ -322,7 +322,7 @@ section {
 
 /* FireFox */
 .scroll {
-    scrollbar-color: $accent #242424;
+    scrollbar-color: $accent $light-black;
     padding-right: 8px;
     overflow: auto;
 }
