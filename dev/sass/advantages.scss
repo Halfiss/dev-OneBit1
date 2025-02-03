@@ -1,0 +1,23 @@
+.advantages-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.advatnages-item {
+    display: flex;
+    background: $system;
+    border-radius: 15px;
+}
+
+.advatnages-text {
+    padding: 40px;
+    h3 {
+        margin-bottom: 16px;
+        line-height: 1.16;
+    }
+    h6 {
+        color: #8A9385;
+        font-weight: 400;
+    }
+}
