@@ -1,0 +1,120 @@
+.review {
+    background-color: $accent;
+    padding: 200px 0 174px;
+    margin-bottom: $section-padding;
+    border-radius: 50px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper {
+    max-width: 1080px;
+    .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+        .swiper-pagination-bullet {
+                width: 12px;
+                height: 12px;
+                background-color: $titles;
+                opacity: 1;
+                border-radius: 12px;
+                margin: 0 12px;
+                transition: 0.3s;
+                &-active {
+                    background-color: $accent-secondary;
+                    width: 160px;
+                }
+            }
+    }
+}
+
+.swiper-wrapper {
+    align-items: flex-end;
+}
+
+.swiper-slide {
+    color: $system;
+    padding: 50px 60px 72px;
+}
+
+.review-text {
+    font-size: 32px;
+    margin-bottom: 80px;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 136px;
+        height: 112px;
+        background: url(./assets/img/icon-blockquote.svg) center/contain no-repeat;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.review-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+
+.review-autor {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+.review-date {
+    font-size: 20px;
+    color: $accent-secondary;
+}
+
+.swiper-navigation {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 72px;
+    height: 74px;
+    gap: 20px;
+    background-color: $accent;
+    z-index: 1;
+    padding-right: 65px;
+    padding-left: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: static;
+    border: 1px solid $accent-secondary;
+    border-radius: 50%;
+    height: 74px;
+    width: 74px;
+    margin-top: 0;
+    &::after {
+        content: "";
+        width: 23px;
+        height: 16px;
+        background: url(./assets/img/icon-arrow.svg);
+    }
+}
+
+.swiper-button-next {
+    &::after {
+        transform: rotate(180deg);
+    }
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: $titles;
+    opacity: 1;
+    border-radius: 12px;
+    margin: 0 12px;
+    &-active {
+        background-color: $accent-secondary;
+        width: 160px;
+    }
+}
