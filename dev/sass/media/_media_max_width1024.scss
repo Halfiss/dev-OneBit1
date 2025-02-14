@@ -3,19 +3,19 @@
     //     font-size: 32px;
     // }
 
-    h2 {
+    h2,.h2 {
         font-size: 32px;
     }
 
-    h3 {
+    h3,.h3 {
         font-size: 24px;
     }
 
-    h5 {
+    h5,.h5 {
         font-size: 18px;
     }
 
-    h6 {
+    h6,.h6 {
         font-size: 16px;
     }
 
@@ -300,6 +300,23 @@
         border-radius: 6px;
     }
 
+    .page-home {
+        .banner {
+            &-col {
+                &:first-child {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    gap: 40px;
+                }
+            }
+        }
+
+        .banner-advantages {
+            margin-bottom: 0;
+        }
+    
+    }
+
     .banner {
         padding-top: 20px;
         padding-bottom: 100px;
@@ -308,17 +325,19 @@
             flex-direction: column-reverse;
         }
 
-        &-col {
-            &:first-child {
-                display: flex;
-                flex-direction: column-reverse;
-                gap: 40px;
-            }
-        }
+        // &-col {
+        //     &:first-child {
+        //         display: flex;
+        //         flex-direction: column-reverse;
+        //         gap: 40px;
+        //     }
+        // }
 
         .banner-text {
             margin-bottom: 40px;
         }
+
+        
 
         h1 {
             margin-bottom: 20px;
@@ -331,6 +350,10 @@
 
         +section {
             margin-top: 0;
+        }
+
+        .img-fluid {
+            border-radius: 12px;
         }
     }
 
@@ -378,12 +401,16 @@
 
     .banner-advantages {
         gap: 16px;
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
 
     .banner-advantages-item {
         font-size: 14px;
         gap: 16px;
+    }
+
+    .banner-link {
+        font-size: 16px;
     }
 
     .nice-select {
@@ -562,6 +589,39 @@
     .accordion-body {
         font-size: 16px;
         padding-bottom: 55px;
+    }
+
+    .page-main-services {
+        padding-top: 20px;
+    }
+
+    .services-list {
+        --services-list-gap: 20px;
+    }
+
+    .services-item {
+        border: 1px solid $stroke;
+        width: 100%;
+        max-width: 705px;
+        margin: 0 auto;
+        padding: 20px 24px 24px;
+        &:first-child {
+            flex-direction: column;
+        }
+
+        &__title {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        &__description {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        &__link {
+            margin-bottom: 20px;
+        }
     }
 
     .footer-logo {

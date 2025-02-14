@@ -28,6 +28,8 @@
         color: $titles;
         font-size: 24px;
         min-height: 162px;
+        justify-content: space-between;
+
         &:not(.collapsed){
             background-color: transparent;
             box-shadow: none;
